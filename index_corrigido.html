@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>João Ribeiro · Estudante de Ciência da Computação</title>
+  <meta name="description" content="Portfólio de João Ribeiro, estudante de Ciência da Computação com interesse em Cybersecurity, Cloud Computing e DevOps." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===================== HEADER / NAVEGAÇÃO ===================== -->
+  <header class="header" id="header">
+    <div class="header__inner">
+      <a href="#inicio" class="logo" aria-label="Voltar ao início">
+        <span class="logo__prompt">&gt;_</span> joao<span class="logo__accent">.ribeiro</span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Navegação principal">
+        <ul class="nav__list" id="navList">
+          <li><a href="#inicio" class="nav__link">início</a></li>
+          <li><a href="#sobre" class="nav__link">sobre</a></li>
+          <li><a href="#habilidades" class="nav__link">habilidades</a></li>
+          <li><a href="#projetos" class="nav__link">projetos</a></li>
+          <li><a href="#contato" class="nav__link">contato</a></li>
+        </ul>
+      </nav>
+
+      <div class="header__actions">
+        <button id="themeToggle" class="icon-btn" aria-label="Alternar entre modo claro e escuro" title="Alternar tema">
+          <svg id="themeIconMoon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <svg id="themeIconSun" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" hidden>
+            <circle cx="12" cy="12" r="4.5" fill="none" stroke="currentColor" stroke-width="1.6"/>
+            <path d="M12 2.5v2.4M12 19.1v2.4M4.2 4.2l1.7 1.7M18.1 18.1l1.7 1.7M2.5 12h2.4M19.1 12h2.4M4.2 19.8l1.7-1.7M18.1 5.9l1.7-1.7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+          </svg>
+        </button>
+
+        <button id="menuToggle" class="menu-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="navList">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===================== INÍCIO ===================== -->
+    <section id="inicio" class="hero">
+      <div class="hero__grid" aria-hidden="true"></div>
+      <div class="hero__content container">
+        <p class="eyebrow">$ whoami</p>
+        <h1 class="hero__name">João Ribeiro</h1>
+        <p class="hero__role">Estudante de Ciência da Computação</p>
+
+        <p class="hero__terminal" aria-live="polite">
+          <span id="typedText"></span><span class="cursor" aria-hidden="true">_</span>
+        </p>
+
+        <p class="hero__text">
+          Estou em formação em Ciência da Computação e venho construindo, projeto a projeto, uma base sólida
+          em programação, redes e boas práticas de tecnologia. Meu maior interesse está em
+          <strong>Cybersecurity</strong> — entender como sistemas são protegidos (e atacados) é o que mais
+          me motiva a estudar todos os dias.
+        </p>
+
+        <div class="hero__actions">
+          <a href="#projetos" class="btn btn--primary">Ver projetos</a>
+          <a href="#contato" class="btn btn--ghost">Entrar em contato</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SOBRE MIM ===================== -->
+    <section id="sobre" class="section">
+      <div class="container">
+        <p class="section__eyebrow">$ cat sobre.md</p>
+        <h2 class="section__title">Sobre mim</h2>
+
+        <div class="about__grid">
+          <div class="about__text">
+            <p>
+              Sou estudante de Ciência da Computação e estou construindo minha trajetória acadêmica com foco em
+              entender a fundo como sistemas, redes e aplicações funcionam — não só para desenvolver, mas
+              também para saber protegê-los. É por isso que Cybersecurity é a área que mais desperta meu interesse
+              dentro do curso.
+            </p>
+            <p>
+              Além da segurança da informação, também tenho curiosidade por Cloud Computing, DevOps e
+              desenvolvimento de software em geral. Gosto de aprender colocando a mão na massa: praticando lógica
+              de programação, montando pequenos projetos e estudando conceitos de redes de computadores.
+            </p>
+            <p>
+              Meu objetivo profissional é seguir evoluindo nessas áreas, participando de projetos reais,
+              aprendendo com a comunidade de tecnologia e, no futuro, atuar profissionalmente com segurança da
+              informação e infraestrutura em nuvem.
+            </p>
+          </div>
+
+          <div class="about__focus">
+            <h3 class="about__focus-title">Em estudo atualmente</h3>
+            <ul class="focus__list">
+              <li><span class="focus__dot"></span>Cybersecurity — fundamentos</li>
+              <li><span class="focus__dot"></span>Cloud Computing</li>
+              <li><span class="focus__dot"></span>DevOps</li>
+              <li><span class="focus__dot"></span>Redes de Computadores</li>
+              <li><span class="focus__dot"></span>Desenvolvimento de Software</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== HABILIDADES ===================== -->
+    <section id="habilidades" class="section section--alt">
+      <div class="container">
+        <p class="section__eyebrow">$ ls habilidades/</p>
+        <h2 class="section__title">Habilidades</h2>
+        <p class="section__subtitle">
+          Tecnologias e áreas que venho estudando e praticando ao longo do curso — como estudante em formação,
+          ainda em constante aprendizado.
+        </p>
+
+        <div class="skills__grid" id="skillsGrid">
+          <div class="skill-card"><span class="skill-card__tag">linguagem</span><h3>Python</h3></div>
+          <div class="skill-card"><span class="skill-card__tag">web</span><h3>HTML</h3></div>
+          <div class="skill-card"><span class="skill-card__tag">web</span><h3>CSS</h3></div>
+          <div class="skill-card"><span class="skill-card__tag">web</span><h3>JavaScript</h3></div>
+          <div class="skill-card"><span class="skill-card__tag">ferramenta</span><h3>Git</h3></div>
+          <div class="skill-card"><span class="skill-card__tag">ferramenta</span><h3>GitHub</h3></div>
+          <div class="skill-card"><span class="skill-card__tag">dados</span><h3>SQL</h3></div>
+          <div class="skill-card"><span class="skill-card__tag">infra</span><h3>Redes de Computadores</h3></div>
+          <div class="skill-card"><span class="skill-card__tag">foco</span><h3>Cybersecurity</h3></div>
+          <div class="skill-card"><span class="skill-card__tag">sistema</span><h3>Linux</h3></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PROJETOS ===================== -->
+    <section id="projetos" class="section">
+      <div class="container">
+        <p class="section__eyebrow">$ ls projetos/</p>
+        <h2 class="section__title">Projetos</h2>
+        <p class="section__subtitle">
+          Projetos acadêmicos e pessoais desenvolvidos durante o curso, ainda sem repositórios públicos.
+        </p>
+
+        <div class="projects__grid">
+          <article class="project-card">
+            <div class="project-card__header">
+              <span class="project-card__index">01</span>
+              <h3>Gerador de Senhas em Python</h3>
+            </div>
+            <p class="project-card__desc">
+              Projeto desenvolvido para praticar Python, manipulação de strings e listas e geração de senhas.
+            </p>
+            <ul class="project-card__stack">
+              <li>Python</li>
+              <li>Lógica de programação</li>
+            </ul>
+            <button class="btn btn--disabled" disabled title="Em desenvolvimento">
+              Ver projeto <span class="badge">em desenvolvimento</span>
+            </button>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__header">
+              <span class="project-card__index">02</span>
+              <h3>Projeto de Modelagem de Software</h3>
+            </div>
+            <p class="project-card__desc">
+              Projeto acadêmico envolvendo levantamento de requisitos, modelagem e diagramas de software.
+            </p>
+            <ul class="project-card__stack">
+              <li>Engenharia de Software</li>
+              <li>Modelagem</li>
+            </ul>
+            <button class="btn btn--disabled" disabled title="Em desenvolvimento">
+              Ver projeto <span class="badge">em desenvolvimento</span>
+            </button>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__header">
+              <span class="project-card__index">03</span>
+              <h3>Projeto de Redes</h3>
+            </div>
+            <p class="project-card__desc">
+              Projeto acadêmico envolvendo conceitos de redes de computadores e utilização do Cisco Packet Tracer.
+            </p>
+            <ul class="project-card__stack">
+              <li>Redes</li>
+              <li>Cisco Packet Tracer</li>
+            </ul>
+            <button class="btn btn--disabled" disabled title="Em desenvolvimento">
+              Ver projeto <span class="badge">em desenvolvimento</span>
+            </button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTATO ===================== -->
+    <section id="contato" class="section section--alt">
+      <div class="container">
+        <p class="section__eyebrow">$ ping joao</p>
+        <h2 class="section__title">Contato</h2>
+        <p class="section__subtitle">Vamos conversar sobre tecnologia, projetos ou oportunidades.</p>
+
+        <div class="contact__grid">
+          <a class="contact-card" href="https://github.com/jpmanini" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
+              <path fill="currentColor" d="M12 .5C5.73.5.5 5.73.5 12a11.5 11.5 0 0 0 7.86 10.93c.58.1.79-.25.79-.56v-2.16c-3.2.7-3.88-1.37-3.88-1.37-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.55-.29-5.23-1.28-5.23-5.68 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.21-1.49 3.18-1.18 3.18-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.41-2.69 5.39-5.25 5.67.41.36.78 1.08.78 2.17v3.21c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5z"/>
+            </svg>
+            <div>
+              <span class="contact-card__label">GitHub</span>
+              <span class="contact-card__value">github.com/jpmanini</span>
+            </div>
+          </a>
+
+          <a class="contact-card" href="https://www.linkedin.com/in/jo%C3%A3o-pedro-manini-7b100a1b3/" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
+              <path fill="currentColor" d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/>
+            </svg>
+            <div>
+              <span class="contact-card__label">LinkedIn</span>
+              <span class="contact-card__value">João Pedro Manini</span>
+            </div>
+          </a>
+
+          <a class="contact-card" href="mailto:jpmaniniribeiro@gmail.com">
+            <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
+              <path fill="currentColor" d="M2 5.5A2.5 2.5 0 0 1 4.5 3h15A2.5 2.5 0 0 1 22 5.5v13a2.5 2.5 0 0 1-2.5 2.5h-15A2.5 2.5 0 0 1 2 18.5v-13zm2.2.3 7.3 6.1a.8.8 0 0 0 1 0l7.3-6.1H4.2zM20 7.2l-6.87 5.73a2.8 2.8 0 0 1-3.56 0L4 7.2v11.3c0 .28.22.5.5.5h15a.5.5 0 0 0 .5-.5V7.2z"/>
+            </svg>
+            <div>
+              <span class="contact-card__label">E-mail</span>
+              <span class="contact-card__value">jpmaniniribeiro@gmail.com</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>&copy; <span id="year"></span> João Ribeiro — construído com HTML, CSS e JavaScript puro.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
